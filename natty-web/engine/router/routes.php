@@ -14,6 +14,6 @@
   Router::map("/supportme", "SupportMe", HandlerType::View);
 
 
-  Router::map("/apps-download", "https://apps.tefek.cz/", HandlerType::Redirect);
+  Router::map("/apps-download", "https://apps.natty.sh/", HandlerType::Redirect);
   Router::map("/pluto-quick-start", "https://github.com/plutoengine/plutoengine-basic-demo/archive/refs/heads/main.zip", HandlerType::Redirect);
 ?>

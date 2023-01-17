@@ -34,7 +34,7 @@
               <p>
                 Botdiril's website is under construction. Once the site is ready, it will be available via the link below.
               </p>
-              <a href="https://botdiril.tefek.cz/" class="mint-link">Botdiril's Website</a>
+              <a href="https://botdiril.com/" class="mint-link">Botdiril's Website</a>
             </div>
         </div>
         <div class="mint-solo-card mint-colorscheme-secondary-bg">

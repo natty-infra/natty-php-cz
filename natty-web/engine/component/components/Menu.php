@@ -2,7 +2,7 @@
   require_once 'ComponentBase.php';
 
   $GLOBALS["menu_items"] = [
-    new MenuItem("",         "tefek",  "Home"),
+    new MenuItem("",         "natty",  "Home"),
     new MenuItem("aboutme",  "person", "About Me"),
     new MenuItem("projects", "apps",   "Projects"),
     new MenuItem("contact",  "mail",   "Contact Me")

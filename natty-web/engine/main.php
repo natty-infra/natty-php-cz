@@ -10,7 +10,7 @@
 
     $GLOBALS["name"] = "Natty";
     $GLOBALS["version"] = "4.0";
-    $GLOBALS["html_comment"] = "<!-- Tefek's site v{$GLOBALS["version"]}. Found a bug? Send me a report over to natty.sh.git(at)gmail.com -->";
+    $GLOBALS["html_comment"] = "<!-- Natty's site v{$GLOBALS["version"]}. Found a bug? Send me a report over to natty.sh.git(at)gmail.com -->";
 
     $GLOBALS["root"] = $protocol.$_SERVER["HTTP_HOST"];
 

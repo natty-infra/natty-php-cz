@@ -1,0 +1,135 @@
+.mint-home-fsbg
+{
+  box-sizing: border-box;
+  background-image: url("../../img/mint-background-beam-h.svg");
+  display: block;
+  background-size: cover;
+  min-height: 100vh;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+@media (orientation: portrait)
+{
+  .mint-home-fsbg
+  {
+    background-image: url("../../img/mint-background-beam-v.svg");
+  }
+}
+
+.mint-home-title
+{
+  font-family: "Raleway", sans-serif;
+  color: white;
+  margin-top: 100px;
+  margin-bottom: 8px;
+  margin-left: calc(15%);
+  font-size: 300%;
+  text-shadow: black 0px 2px 2px;
+}
+
+.mint-home-cardset
+{
+  font-family: "Raleway", sans-serif;
+  margin-left: 15%;
+  margin-bottom: 60px;
+
+  width: 600px;
+}
+
+.mint-home-cardset a
+{
+  display: block;
+  text-decoration: none !important;
+}
+
+.mint-home-card
+{
+  background-color: #0A0A0A;
+  color: #C799FF;
+  float: left;
+  box-sizing: border-box;
+  border-left: 2px solid #C799FF;
+  padding: 10px;
+  outline: 5px solid #0A0A0A;
+
+  width: 50%;
+}
+
+.mint-home-card:hover
+{
+  background-color: #121212;
+}
+
+.mint-home-cardset a:focus .mint-home-card
+{
+  background-color: #121212;
+}
+
+.mint-home-card-title
+{
+  font-size: 150%;
+  color: white;
+}
+
+@media screen and (max-width: 720px)
+{
+  .mint-home-title
+  {
+    margin-top: 75px;
+    width: 300px;
+    margin-left: auto;
+  }
+
+  .mint-home-cardset
+  {
+    margin-left: auto;
+    width: 300px;
+  }
+
+  .mint-home-card
+  {
+    width: 100%;
+    float: none;
+    border-left: 2px solid #C799FF;
+    margin-bottom: 2px;
+    outline: none;
+  }
+
+  .mint-home-cardset-footer
+  {
+    outline: none;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 350px)
+{
+  .mint-home-title
+  {
+    width: 90%;
+    margin-left: auto;
+  }
+
+  .mint-home-cardset
+  {
+    width: 100%;
+  }
+
+  .mint-home-card
+  {
+    width: 100%;
+    float: none;
+    border-left: none;
+    margin-bottom: 2px;
+    outline: none;
+  }
+}
+
+@media screen and (max-width: 280px)
+{
+  .mint-home-title
+  {
+    font-size: 220%;
+  }
+}

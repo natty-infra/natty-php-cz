@@ -1,0 +1,125 @@
+div.mint-separator
+{
+    height: 4px;
+    border-bottom: 1px solid #252525;
+    flex-shrink: 0;
+}
+
+.mint-gradient
+{
+    background-image: linear-gradient(to right, #5000b3, #af68ce);
+}
+
+/* Cards */
+
+div.mint-solo-card
+{
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  box-shadow: 0px 1px 3px black;
+  max-width: 1024px;
+}
+
+span.mint-card-heading
+{
+    font-family: "Amaranth", sans-serif;
+    display: block;
+    padding: 5px;
+    padding-left: 10px;
+    font-size: 150%;
+    background-color: rgb(80, 0, 179);
+    box-shadow: 0px 1px 2px black;
+}
+
+span.mint-card-subheading
+{
+    font-family: "Amaranth", sans-serif;
+    display: block;
+    padding: 3px;
+    padding-left: 12px;
+    font-size: 125%;
+    background-color: rgb(58, 0, 128);
+    box-shadow: 0px 1px 2px black;
+}
+
+div.mint-card-content
+{
+    padding: 8px;
+    max-width: 1024px;
+}
+
+div.mint-card-content img
+{
+  max-width: 100%;
+}
+
+img.mint-card-img-s
+{
+    width: 400px;
+}
+
+img.mint-card-img-m
+{
+    width: 600px;
+}
+
+img.mint-card-img-l
+{
+    width: 800px;
+}
+
+/* MINT BUTTON-LIKE LINK */
+
+.mint-link, .mint-link:visited
+{
+  font-family: "Amaranth", sans-serif;
+	display: inline-block;
+	padding: 8px;
+	padding-bottom: 5px;
+	text-decoration: none !important;
+	color: white;
+	font-size: 20px;
+	background-color: #0A0A0A;
+    border-bottom: 3px solid #7512df;
+	margin: 5px;
+    box-shadow: black 0px 2px 0px;
+	cursor: pointer;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+}
+
+.mint-link:hover
+{
+  box-shadow: none;
+	background-color: #000;
+	color: rgb(246, 234, 103);
+  border-bottom: 3px solid #ffab00;
+}
+
+.mint-link:active
+{
+  box-shadow: none;
+	background-color: #333333;
+  border-bottom: 3px solid red;
+	color: #ff6f5e;
+}
+
+/* Q&A */
+
+.mint-qna dt
+{
+  font-weight: bold;
+}
+
+.mint-qna dl + dt
+{
+  margin-top: 8px;
+}
+
+.mint-qna dl
+{
+  padding-left: 5px;
+}

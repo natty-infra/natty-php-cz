@@ -1,0 +1,30 @@
+version: "3.9"
+services:
+  tefek_cz:
+    build:
+      context: ./nginx-docker
+      dockerfile: Dockerfile
+    networks:
+      - tefek-php-network
+    volumes:
+      - tefek-web-data:/www/tefek.cz
+    ports:
+      - "8081:80"
+    depends_on:
+      - tefek_cz_php
+  tefek_cz_php:
+    image: php:fpm-alpine
+    networks:
+      - tefek-php-network
+    volumes:
+      - tefek-web-data:/www/tefek.cz
+volumes:
+  tefek-web-data:
+    driver: local
+    driver_opts:
+      type: none
+      device: "./tefek.cz/"
+      o: bind
+networks:
+  tefek-php-network:
+    driver: bridge

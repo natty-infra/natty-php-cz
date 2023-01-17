@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1080" height="1920" version="1.1" viewBox="0 0 285.75 508" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linG1" x1="286.13" x2=".68761" y1="175.33" y2="320.72" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#ff7aff" offset="0"/>
+   <stop stop-color="#ffb695" offset="1"/>
+  </linearGradient>
+  <linearGradient id="ligG2" x1="285.6" x2=".13363" y1="431.37" y2="502" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#552a5d" offset="0"/>
+   <stop stop-color="#a96436" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linG3" x1="285.6" x2="1.7567" y1="433.51" y2="321.79" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#9149a5" offset="0"/>
+   <stop stop-color="#ff835a" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <rect x=".1479" y=".14791" width="285.45" height="507.7" fill="#121212" />
+  <path d="m 285.75 411.6 -285.75 85.526 0.1479 10.731 285.6 -53.494 z" fill="url(#ligG2)"/>
+  <path d="m 285.75 411.6 -285.75 -117.6 v 53.454 l 285.75 106.91 z" fill="url(#linG3)"/>
+  <path d="m 285.75 87.664 -285.75 206.33 v 53.454 l 285.75 -68.421 z" fill="url(#linG1)"/>
+ </g>
+</svg>

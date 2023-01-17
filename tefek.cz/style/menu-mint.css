@@ -1,0 +1,55 @@
+menu#mint-main-menu
+{
+  background-color: #151515;
+  color: white;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  overflow: hidden;
+  height: 64px;
+  box-shadow: 0 0 10px black;
+
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 4px;
+}
+
+menu#mint-main-menu a
+{
+  background-color: #151515;
+  font-family: "Amaranth", sans-serif;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 64px;
+  padding-top: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  min-width: 64px;
+  text-align: center;
+  vertical-align: center;
+  font-size: 80%;
+  border-bottom: 2px solid white;
+}
+
+menu#mint-main-menu a:focus
+{
+  outline: none;
+}
+
+menu#mint-main-menu a:hover
+{
+  background-color: #303030;
+}
+
+menu#mint-main-menu a svg
+{
+  fill: white;
+  stroke: white;
+  width: 32px;
+  height: 32px;
+}

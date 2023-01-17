@@ -2,6 +2,8 @@
 
 My 2019-ish personal website. Testing `docker-compose.yaml` included.
 
+![tefek.cz logo](tefek.cz/img/tefek_new.png)
+
 ## Running
 
 Run using docker-compose or an equivalent alternative:

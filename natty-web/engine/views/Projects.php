@@ -27,7 +27,7 @@
           The engine is open source under the MIT license.
         </p>
         <p>
-          <a class="mint-link" href="https://github.com/493msi/plutoengine">GitHub repository</a>
+          <a class="mint-link" href="https://github.com/AMNatty/plutoengine">GitHub repository</a>
         </p>
       </div>
     </div>
@@ -49,7 +49,7 @@
     </div>
     <div class="mint-solo-card mint-colorscheme-secondary-bg">
       <span class="mint-card-heading">
-        tefek.cz - This Website
+        This Website
       </span>
       <div class="mint-card-content">
         <p>
@@ -57,7 +57,7 @@
           I am planning to slowly move all my fragments of sites here and make it more centralized.
         </p>
         <p>
-          It might take a while, but it will be worth it in the long term, especially since I have roughly seven different subdomains for tefek.cz at this very moment.
+          It might take a while, but it will be worth it in the long term, especially since I have roughly seven different subdomains for this site at this very moment.
         </p>
         <p>
           <a class="mint-link" href="<?=Router::link("new")?>">News and updates...</a>

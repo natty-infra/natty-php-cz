@@ -19,7 +19,7 @@
           My Twitter
         </span>
         <div class="mint-card-content">
-          <a class="twitter-timeline" data-dnt="true" data-theme="dark" href="https://twitter.com/AMTefek?ref_src=twsrc%5Etfw">Tweets by 493msi</a>
+          <a class="twitter-timeline" data-dnt="true" data-theme="dark" href="https://twitter.com/AMTefek?ref_src=twsrc%5Etfw">Tweets by Natty</a>
           <script async src="https://platform.twitter.com/widgets.js" onload="document.getElementById('blockedNote').style.display = 'none';" charset="utf-8"></script>
           <div id="blockedNote">
             <p>

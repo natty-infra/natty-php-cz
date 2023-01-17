@@ -25,13 +25,12 @@
                 $age = DateTime::createFromFormat('d/m/Y', '27/09/1998', $tz)->diff(new DateTime('now', $tz))->y;
                 echo $age;
             ?> year old computer engineering student from the Czech Republic.
-            My activities include programming in various languages (usually Java), playing games,
+            My activities include programming in various languages (usually Java and Rust), playing games,
             chatting on&nbsp;Discord and creating crazy projects.
           </p>
           <p>
-            I have several nicknames, I mostly use <b>Natty</b>, <b>493msi</b> and <b>Tefek</b> though.
-            Many people ask me about the origin of the nicknames.
-            Natty comes from Natalia, 493 is my favorite number and the rest can be derived from my name and surname.
+            I have several nicknames, I mostly use <b>Natty</b> though.
+            Natty comes from Natalia/Natalie.
           </p>
         </div>
       </div>
@@ -54,10 +53,11 @@
             I sometimes share my progress on my <a href="<?=Router::link("contact")?>">Discord</a>.
           </dl>
           <dt>
-            What Discord servers are you active on?
+            What servers are you active on?
           </dt>
           <dl>
-            Mostly Vandiril's Discord server (aka Vandiland) and sometimes on <a href="<?=Router::link("contact")?>">my public Discord</a>.
+            Mostly the <a href="https://tech.lgbt/@natty" rel="noreferrer nofollow">tech.lgbt Mastodon</a>
+            and sometimes on <a href="<?=Router::link("contact")?>">my public Discord</a>.
           </dl>
           <dt>
             Will you add feature X to Botdiril?
@@ -73,11 +73,11 @@
         </span>
         <div class="mint-card-content">
           <p>
-            I have two YouTube channels, <a href="https://www.youtube.com/channel/UCPxgc5rl0DCmsPxgy6vsIzQ">Tefek</a> and <a href="https://www.youtube.com/channel/UCzRS17rRVg1zxPGe_DymCMA">Tefek1</a> (my personal channel).
+            I have two YouTube channels, <a href="https://www.youtube.com/channel/UCPxgc5rl0DCmsPxgy6vsIzQ">Natty</a> and <a href="https://www.youtube.com/channel/UCzRS17rRVg1zxPGe_DymCMA">Natty4</a> (my personal channel).
             Sadly, I don't have enough interesting content to post videos more often.
           </p>
           <p>
-            I also have a <a href="https://twitter.com/493msi">Twitter account</a>, even though I don't use it much.
+            I also have a <a href="https://twitter.com/AMTefek">Twitter account</a>, even though I don't use it much.
           </p>
           <a href="<?=Router::link("tweets")?>" class="mint-link">Twitter Feed</a>
         </div>

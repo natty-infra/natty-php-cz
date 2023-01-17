@@ -6,7 +6,7 @@
   {
     public function handle()
     {
-      self::serveView("News and Updates - Tefek", "NewsUpdates");
+      self::serveView("News and Updates - Natty", "NewsUpdates");
     }
   }
 ?>

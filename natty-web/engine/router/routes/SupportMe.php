@@ -6,7 +6,7 @@
     {
         public function handle()
         {
-            self::serveView("Support Tefek", "SupportMe");
+            self::serveView("Support Natty", "SupportMe");
         }
     }
 ?>

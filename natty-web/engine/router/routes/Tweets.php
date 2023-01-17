@@ -2,11 +2,11 @@
   require_once "HandlerBase.php";
   require_once __DIR__ . "/../../component/Renderer.php";
 
-  class Contact extends HandlerBase
+  class Tweets extends HandlerBase
   {
     public function handle()
     {
-      self::serveView("Contact Tefek", "Contact");
+      self::serveView("Natty's Twitter", "Tweets");
     }
   }
 ?>

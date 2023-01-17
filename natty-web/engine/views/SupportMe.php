@@ -23,8 +23,8 @@
                         If you have some disposable income and like what I do, please consider financially supporting me:
                     </p>
                     <ul>
-                        <li>PayPal: <a href="https://paypal.me/tefek">https://paypal.me/tefek</a></li>
-                        <li>Patreon: <a href="https://patreon.com/tefek">https://patreon.com/tefek</a></li>
+                        <li>PayPal: <a href="https://paypal.me/tefek">paypal.me</a></li>
+                        <li>Patreon: <a href="https://patreon.com/tefek">Patreon</a></li>
                     </ul>
                     <p>
                         Every little bit helps, thanks.

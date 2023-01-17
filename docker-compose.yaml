@@ -1,30 +1,23 @@
 version: "3.9"
 services:
-  tefek_cz:
+  natty_sh:
     build:
       context: ./nginx-docker
       dockerfile: Dockerfile
     networks:
-      - tefek-php-network
+      - natty-php-network
     volumes:
-      - tefek-web-data:/www/tefek.cz
+      - ./natty-web:/www/natty.sh/
     ports:
       - "8081:80"
     depends_on:
-      - tefek_cz_php
-  tefek_cz_php:
+      - natty_sh_php
+  natty_sh_php:
     image: php:fpm-alpine
     networks:
-      - tefek-php-network
+      - natty-php-network
     volumes:
-      - tefek-web-data:/www/tefek.cz
-volumes:
-  tefek-web-data:
-    driver: local
-    driver_opts:
-      type: none
-      device: "./tefek.cz/"
-      o: bind
+      - ./natty-web:/www/natty.sh/
 networks:
-  tefek-php-network:
+  natty-php-network:
     driver: bridge

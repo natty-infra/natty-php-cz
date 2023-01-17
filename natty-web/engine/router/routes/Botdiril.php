@@ -2,12 +2,11 @@
   require_once "HandlerBase.php";
   require_once __DIR__ . "/../../component/Renderer.php";
 
-  class Home extends HandlerBase
+  class Botdiril extends HandlerBase
   {
     public function handle()
     {
-      self::importStyle("home-mint");
-      self::serveView("Tefek", "Home");
+      self::serveView("Botdiril - Natty", "Botdiril");
     }
   }
 ?>

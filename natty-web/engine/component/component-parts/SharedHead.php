@@ -1,13 +1,13 @@
 <meta charset="utf-8" />
-<meta name="description" content="Tefek's central website, containing information about him and his projects." />
-<meta name="keywords" content="493msi, Tefek, Botdiril">
+<meta name="description" content="Natty's central website, containing information about her and her projects." />
+<meta name="keywords" content="Natty, Botdiril">
 
-<meta property="og:site_name" content="Tefek's Website" />
+<meta property="og:site_name" content="Natty's Website" />
 <meta property="og:title" content="<?=$GLOBALS["title"]?>" />
 <meta property="og:type" content="website" />
-<meta property="og:description" content="Tefek's central website, containing information about him and his projects." />
-<meta property="og:url" content="https://www.tefek.cz" />
-<meta property="og:image" content="https://www.tefek.cz/img/tefek_darkcyan600.png" />
+<meta property="og:description" content="Natty's central website, containing information about her and her projects." />
+<meta property="og:url" content="https://www.natty.sh" />
+<meta property="og:image" content="https://natty.sh/assets/logo.webp" />
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 

@@ -2,11 +2,12 @@
   require_once "HandlerBase.php";
   require_once __DIR__ . "/../../component/Renderer.php";
 
-  class Projects extends HandlerBase
+  class Home extends HandlerBase
   {
     public function handle()
     {
-      self::serveView("Tefek's Projects", "Projects");
+      self::importStyle("home-mint");
+      self::serveView("Natty", "Home");
     }
   }
 ?>

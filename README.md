@@ -1,8 +1,8 @@
-# tefek.cz
+# Natty.PHP
 
 My 2019-ish personal website. Testing `docker-compose.yaml` included.
 
-![tefek.cz logo](tefek.cz/img/tefek_new.png)
+![natty.sh logo](natty-web/img/natty_new.webp)
 
 ## Running
 

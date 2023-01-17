@@ -23,7 +23,7 @@
                 <a href="https://discord.gg/sAAnDfWTav" class="mint-link">Join Server</a>
             </div>
             <div class="mint-card-content">
-                You can send me an email to <b>493msi(at)gmail.com</b>.
+                You can send me an email to <b>natty.sh.git(at)gmail.com</b>.
             </div>
         </div>
         <div class="mint-solo-card mint-colorscheme-secondary-bg">
@@ -31,7 +31,7 @@
                 Bug report
             </span>
             <div class="mint-card-content">
-                In case you have a bug you would like to submit, please send me an email to <b>493msi(at)gmail.com</b> or <b>tefek32(at)gmail.com</b>.
+                In case you have a bug you would like to submit, please email me to <b>natty.sh.git(at)gmail.com</b>.
                 Include the important information like URL, reproduction steps and what happens. Thanks in advance.
             </div>
         </div>

@@ -17,7 +17,7 @@
       <div class="mint-home-header">
         <div>
           <div class="mint-home-title">
-            Tefek's Homepage
+            Natty's Homepage
           </div>
           <div class="mint-home-cardset">
             <a href="<?=Router::link("botdiril")?>">
@@ -36,7 +36,7 @@
                   About Me
                 </div>
                 <div class="mint-home-card-description">
-                  Who even is Tefek?
+                  Who even is Natty?
                 </div>
               </div>
             </a>

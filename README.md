@@ -12,6 +12,9 @@ Run using docker-compose or an equivalent alternative:
 $ docker-compose up
 ```
 
+This compose-file is obviously not production-ready and by default listens
+on the **port 8081**. Change it to your needs.
+
 ## Licensing
 
 Consider all PHP source to be licensed under the Unlicense,
